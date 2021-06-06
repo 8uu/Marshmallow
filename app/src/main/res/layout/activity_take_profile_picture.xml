@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|bottom"
+    tools:context=".MainActivity">
+
+    <!-- Image view in which image will be set-->
+    <ImageView
+        android:id="@+id/image_view"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image_black_24dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <!--Button to take pic-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/capture_image_btn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E38349"
+            android:text="@string/take_picture_take_picture_activity" />
+
+        <Button
+            android:id="@+id/load_image"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E38349"
+            android:text="@string/load_an_image_take_picture_activity" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_upload_image"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="#E38349"
+        android:text="Confirm" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E38349" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="#E38349"
+        android:text="Return" />
+
+</LinearLayout>

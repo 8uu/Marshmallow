@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Database Demo</string>
+    <string name="create_account_name">Create Account</string>
+    <string name="sign_in_name">Marshmellow</string>
+
+    <string name="sign_in_button">Sign In</string>
+    <string name="sign_out_button">Sign Out</string>
+    <string name="edit_info_button">Edit Account</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="finish_create_button">Continue</string>
+    <string name="finish_edit_button">Continue</string>
+
+    <string name="input_username">Username</string>
+    <string name="input_password">Password</string>
+    <string name="input_email">Email</string>
+    <string name="input_phone">Phone</string>
+    <string name="input_address">Address</string>
+
+    <string name="new_email">Enter a new email address.\nCurrent email: %1$s</string>
+    <string name="new_phone">Enter a new phone number.\nCurrent number: %1$s</string>
+
+    <string name="current_username">Username: %1$s</string>
+    <string name="current_email">Email: %1$s</string>
+    <string name="current_phone">Phone Number: %1$s</string>
+    <string name="current_rating">Rating: %1$s</string>
+    <string name="current_number_of_ratings">Number of Ratings: %1$s</string>
+
+    <string name="confirm_request">Confirm Request</string>
+    <string name="cancel_request">Cancel Request</string>
+
+    <string name="driver_confirm_rider_username"><u>Rider Username:</u> %1$s</string>
+    <string name="driver_confirm_ride_fare">Ride Fare: %1$s Dollars</string>
+    <string name="driver_to_rider_distance">Distance to Rider: %1$s Kilometers</string>
+    <string name="driver_confirm_ride_distance">Ride Distance: %1$s Kilometers</string>
+
+    <string name="rider_confirm_driver_username"><u>Username: %1$s</u></string>
+    <string name="rider_confirm_driver_rating">Rating: %1$s</string>
+    <string name="rider_confirm_driver_phone_number"><u>Phone Number: %1$s</u></string>
+    <string name="rider_confirm_driver_email">Email: %1$s</string>
+
+    <string name="show_username">Username: %1$s</string>
+    <string name="show_email">Email: %1$s</string>
+    <string name="show_phone"><u>Phone Number: %1$s</u></string>
+    <string name="show_address">Address: %1$s</string>
+    <string name="show_rating">Rating: %1$s</string>
+    <string name="make_request">Make Request</string>
+    <string name="matching">MATCHING ...</string>
+    <string name="cancel_request_current_request_activity">Cancel Request</string>
+    <string name="email_driver_confirm">Email:</string>
+    <string name="phone_number_driver_confirm">Phone Number:</string>
+    <string name="waiting_for_rider_driver_confirm">Waiting for rider...</string>
+    <string name="username_driver_confirm">Username:</string>
+    <string name="cancel_pickup_driver_pickup">Cancel Pickup</string>
+    <string name="confirm_pickup_driver_confirm">Confirm pickup</string>
+    <string name="rider_info_driver_confirm">Rider Info:</string>
+    <string name="end_ride_driver_end_and_pay">End Ride</string>
+    <string name="please_present_qr_code_to_driver_generate_qr">Please Present QR code to Driver</string>
+    <string name="qr_code_generate_qr">QR Code</string>
+    <string name="wallet_money_screen">Marshmoney</string>
+    <string name="balance_money_screen">Balance:</string>
+    <string name="add_5_money_screen">ADD $5</string>
+    <string name="add_25_money_screen">ADD $25</string>
+    <string name="add_50_money_screen">ADD $50</string>
+    <string name="done_money_screen">DONE</string>
+    <string name="hello_firebase_profile_picture_activity">Hello</string>
+    <string name="done_firebase_profile_photo_activity">DONE</string>
+    <string name="driver_info_rider_confirm_pickup">Driver Info:</string>
+    <string name="rider_confirm_pickup">Username:</string>
+    <string name="rating_rider_confirm_pickup">Rating:</string>
+    <string name="phone_number_rider_confirm_pickup">Phone Number:</string>
+    <string name="email_rider_confirm_pickup">Email:</string>
+    <string name="waiting_for_driver_rider_confirm_pickup">Waiting for driver...</string>
+    <string name="cancel_request_rider_confirm_pickup">Cancel Request</string>
+    <string name="confirm_pickup_rider_confirm_pickup">Confirm pickup</string>
+    <string name="end_ride_and_pay_rider_end_and_pay">End Ride and Pay</string>
+    <string name="offer_rider_new_request">Offer: $%1$s</string>
+    <string name="_0_hint_rider_new_request">$0</string>
+    <string name="tip_rider_new_request">Tip:</string>
+    <string name="confirm_request_rider_new_request">CONFIRM REQUEST</string>
+    <string name="get_fare_rider_new_request">Get Fare</string>
+    <string name="take_picture_take_picture_activity">Take Picture</string>
+    <string name="load_an_image_take_picture_activity">Load an image</string>
+    <string name="name_image_take_picture_activity">Name image</string>
+    <string name="upload_image_take_picture_activity">Upload image</string>
+    <string name="show_image_from_firebase_take_picture_activity">Show Image From Firebase</string>
+    <string name="done_take_picture_activity">DONE</string>
+    <string name="available_rides_driver_initial">Available Rides</string>
+    <string name="within_driver_initial">Within:</string>
+    <string name="km_driver_initial">km</string>
+    <string name="username_nav_header">Username</string>
+    <string name="user_email_nav_header">User Email</string>
+    <string name="thank_you_generate_qr">Thank you for riding with Marshmellow!</string>
+
+    <string name="query_current_location">Current Location</string>
+    <string name="query_invalid_location">Please Enter a Valid Location</string>
+    <string name="query_start_location">Start Location</string>
+    <string name="query_end_location">End Location</string>
+
+    <string name="add_qr_bucks_drawer_menu">ADD MARSHMONEY</string>
+    <string name="sign_out_drawer_menu">SIGN OUT</string>
+    <string name="edit_contact_info_drawer_menu">EDIT CONTACT INFO</string>
+    <string name="check_balance_driver_drawer_menu">CHECK BALANCE</string>
+    <string name="sign_out_driver_drawer_menu">SIGN OUT</string>
+    <string name="edit_contact_info_driver_drawer_menu">EDIT CONTACT INFO</string>
+    <string name="add_qr_bucks_money_drawer">ADD MARSHMONEY</string>
+    <string name="edit_contact_info_money_drawer">EDIT CONTACT INFO</string>
+
+    <string name="no_location_permissions">
+        Without your location, we cannot show you a list of rides near you. Please enable location services and try again.
+    </string>
+    <string name="ride_on_way">Action restricted, ride on way</string>
+    <string name="rider_in_ride">Action restricted, ride in progress</string>
+    <string name="cancel_request_and_try_again">Action restricted, cancel your request and try again</string>
+    <string name="already_in_money_screen">Action restricted, Already in Money Screen</string>
+    <string name="rider_has_cancelled_request">%1$s has cancelled their request</string>
+    <string name="driver_has_cancelled_pickup">%1$s is no longer able to pick you up</string>
+    <string name="internet">Please check your internet connection and try again once you have a strong connection</string>
+    <string name="internet_and_valid_location">Please check that your internet connection is secure and that you have entered a valid location.</string>
+    <string name="username_not_unique">Username is not unique</string>
+    <string name="is_required">%1$s is required</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="your_balance">Your Balance: $%1$s</string>
+    <string name="no_camera_permissions">Permission denied, please provide camera access to continue</string>
+    <string name="driver_no_camera_permissions">Please grant camera permission to use the QR Scanner</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="upload_successful">Upload successful</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="driver_money_deposited">$%1$s has been added to your account</string>
+
+    <string name="email_in_use">Email is in use by another user</string>
+    <string name="password_length">Password must be at least 6 characters</string>
+
+    <string name="notifications_marshmellow_on_way">Your Marshmellow is on its way!</string>
+    <string name="notifications_driver_username">Your driver, %1$s, has selected you and is on their way to you!</string>
+
+    <string name="ratings_message">Don\'t forget to give your driver a thumbs up or thumbs down!</string>
+    <string name="ratings_title">How Was Your Driver?</string>
+    <string name="thumbs_up">Thumbs Up</string>
+    <string name="thumbs_down">Thumbs Down</string>
+
+
+    <string name="startup_quote_0">Toasting some marshmellows...</string>
+    <string name="startup_quote_1">Lighting the fire...</string>
+    <string name="startup_quote_2">Telling stories around the campfire...</string>
+
+
+</resources>
